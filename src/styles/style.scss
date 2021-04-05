@@ -1,0 +1,192 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+$black: #000000;
+$yellow: #FFD600;
+$rosa : #D00000;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+.hero-body{
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+
+.title {
+  font-family: 'Poppins';
+  font-size: 5em;
+  color: $black;
+}
+
+#yellow-nav {
+  background-color: $yellow;
+}
+
+#yellow-buton {
+  background-color: $yellow;
+  font-family: poppins;
+  border: none;
+}
+
+.button {
+  color: #000000;
+}
+
+#footer-createdby {
+  color: white;
+}
+
+#long-title {
+  font-size: 3.5em;
+}
+
+.subtitle {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 2em;
+  color: $black;
+}
+
+#menu {
+  margin: 5px;
+}
+
+img#icons:hover {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.master-menu {
+  position: fixed;
+  background-color: $yellow;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  animation: fadeIn 0.4s ease-out 0.4s;
+  animation-fill-mode: both;
+  transition: transform 0.4s ease-in-out;
+}
+
+
+
+#yellow-nav {
+  background-color: $yellow;
+}
+
+.button {
+  border-radius: 0px;
+  margin: 5px;
+}
+
+button.button.is-yellow {
+  background-color: $yellow;
+  font-family: poppins;
+  border: none;
+}
+
+#projects  {
+  border-top: 10px solid $yellow;
+}
+
+#bio  {
+  border-top: 10px solid $yellow;
+}
+
+#parallax-1 {
+  background: url(https://cdn.shopify.com/s/files/1/0306/1016/1723/files/1_9e82793c-0baf-4358-8412-90fe1e5b0320.jpg?v=1617197431);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid $yellow;
+}
+
+#parallax-2 {
+  background: url(https://cdn.shopify.com/s/files/1/0306/1016/1723/files/2_d1d22f7b-29f3-47ac-a97a-2a69a09e7f9a.jpg?v=1617197431);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid $yellow;
+}
+
+#parallax-3 {
+  background: url(https://cdn.shopify.com/s/files/1/0306/1016/1723/files/3_6f559d94-eaf5-4b76-b3aa-d0e4dc5e7180.jpg?v=1617197430);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid $yellow;
+}
+
+#parallax-4 {
+  background: url(https://cdn.shopify.com/s/files/1/0306/1016/1723/files/4_4686e724-1530-4548-b4b8-2283ee532b4e.jpg?v=1617197430);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid $yellow;
+}
+
+#parallax-5 {
+  background: url(https://cdn.shopify.com/s/files/1/0306/1016/1723/files/5_397ddd92-07bc-4573-ac17-180694649ab0.jpg?v=1617197431);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid $yellow;
+}
+
+
+
